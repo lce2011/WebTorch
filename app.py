@@ -26,8 +26,6 @@ class Model(nn.Module):
         logits = self.linear_relu_stack(x)
         return logits
 
-
-
 model = Model(
     noise_height=1024,
     noise_width=1024,
